@@ -1,0 +1,7 @@
+{
+  "name": "http-nsurlsession-error",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
