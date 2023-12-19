@@ -1,0 +1,18 @@
+warning: libobjc.A.dylib is being read from process memory. This indicates that LLDB could not find the on-disk shared cache for this device. This will likely reduce debugging performance.
+
+2023-12-19 09:23:04.684709+0000 App[2176:347019] KeyboardPlugin: resize mode - native
+⚡️ Warning: isWebDebuggable only functions as intended on iOS 16.4 and above.
+⚡️  Loading app at capacitor://localhost...
+2023-12-19 09:23:08.783474+0000 App[2176:347019] [Process] Networking process (0x113000460) took 5.088985 seconds to launch
+2023-12-19 09:23:08.783810+0000 App[2176:347019] [Process] WebContent process (0x1130016e0) took 5.031927 seconds to launch
+⚡️  WebView loaded
+⚡️  To Native ->  App addListener 54432543
+⚡️  To Native ->  Keyboard getResizeMode 54432544
+⚡️  TO JS {"mode":"native"}
+⚡️  To Native ->  CapacitorHttp request 54432545
+2023-12-19 09:23:16.269585+0000 App[2176:347940] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/en.wikipedia.org\/static\/images\/icons\/wikipedia.png","status":200,"headers":{"Expires":"Mon, 16 Dec 2024 17:16:42 GMT","Date":"Mon, 18 Dec 2023 16:42:18 GMT","x-cache":"cp3068 hit, cp3068 hit\/472831","Access-Control-Allow-Origin":"*",
+⚡️  [log] - response status: 200
+2023-12-19 09:25:16.946645+0000 App[2176:348487] [tcp] tcp_input [C1.1.1:3] flags=[R] seq=289079931, ack=0, win=0 state=CLOSED rcv_nxt=289079931, snd_una=2085799178
+2023-12-19 09:25:16.947383+0000 App[2176:348487] [tcp] tcp_input [C1.1.1:3] flags=[R] seq=289079931, ack=0, win=0 state=CLOSED rcv_nxt=289079931, snd_una=2085799178
+2023-12-19 09:25:16.947942+0000 App[2176:348487] [tcp] tcp_input [C1.1.1:3] flags=[R] seq=289079931, ack=0, win=0 state=CLOSED rcv_nxt=289079931, snd_una=2085799178
